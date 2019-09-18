@@ -8,7 +8,26 @@
   pointer-events: none;
 }
 
-.App-header {
+body{
+  background-color: aqua;
+}
+
+h1{
+  color: #61dafb;
+}
+.table{
+  background-color: aliceblue;
+}
+
+img{
+  border: solid blue 2rem;
+}
+
+.blue-border{
+  border: dashed  #61dafb 2rem;
+}
+
+/*.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,7 +36,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+}*/
 
 .App-link {
   color: #61dafb;

@@ -4,22 +4,15 @@ import './App.css';
 
 function App() {
   return (
+    <body>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="table">
+      <h1>I love Hainan!</h1>
+      </div>
+      <img width="600px" alt= "Hainan" src="https://www.radissonhotelgroup.com/uploads/Asia%20Pacific/09%20-%20RHG%20Press%20Release%20-%20Radisson%20Blu%20Haikou%20Signing%20lo-res.jpg"></img>
+      <img className="blue-border" width="600px" alt="" src="http://en.sanyatour.com/wp-content/uploads/2016/10/seafood8.jpg"></img>
     </div>
+    </body>
   );
 }
 
